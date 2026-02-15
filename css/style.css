@@ -78,7 +78,7 @@ html, body {
 /* MAIN CONTENT */
 
 .content {
-    flex: 1;   /* THIS PUSHES FOOTER TO BOTTOM */
+    flex: 1;   
     padding: 60px 80px;
 }
 /*  Footer Styles */
@@ -93,7 +93,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* Removed text-decoration: none from here (it doesn't do anything on container) */
+  
 }
 
 /* Each column */
@@ -104,7 +104,7 @@ html, body {
     min-width: 180px;
 }
 
-/* Logo in footer (if you have one) */
+/* Logo in footer */
 .footer-col .logo {
     color: #0d6efd;
     font-size: 20px;
@@ -121,9 +121,9 @@ html, body {
     text-decoration: none;
 }
 
-/* Links in footer - REMOVE UNDERLINE */
+
 .footer-col a {
-    text-decoration: none;  /* This removes the underline */
+    text-decoration: none;  
     color: #555;
     font-size: 14px;
     transition: color 0.3s;
@@ -131,7 +131,7 @@ html, body {
 
 .footer-col a:hover {
     color: #0d6efd;
-    /* text-decoration: underline; /* Optional: add underline on hover if you want */
+   
 }
 
 /* Column headings */
