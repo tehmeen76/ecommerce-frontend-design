@@ -1,0 +1,156 @@
+/* Updated Footer Styles */
+
+.footer {
+    background: #f4f6f8;
+    padding: 60px 100px;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Removed text-decoration: none from here (it doesn't do anything on container) */
+}
+
+/* Each column */
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 180px;
+}
+
+/* Logo in footer (if you have one) */
+.footer-col .logo {
+    color: #0d6efd;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Company description text */
+.footer-col p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+/* Links in footer - REMOVE UNDERLINE */
+.footer-col a {
+    text-decoration: none;  /* This removes the underline */
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-col a:hover {
+    color: #0d6efd;
+    /* text-decoration: underline; /* Optional: add underline on hover if you want */
+}
+
+/* Column headings */
+.footer-col h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* Social icon circles */
+.social-icons a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* App store buttons section */
+.app-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* Individual app button */
+.app-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+    min-width: 140px;
+    text-decoration: none; /* Ensure no underline on buttons */
+}
+
+.app-btn:hover {
+    background-color: #333;
+}
+
+/* App button icon */
+.app-btn i {
+    font-size: 20px;
+}
+
+/* App button text container */
+.app-btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+
+/* Small text above main button text */
+.app-btn-small {
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+/* Main button text */
+.app-btn-large {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Bottom copyright section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 14px;
+}
